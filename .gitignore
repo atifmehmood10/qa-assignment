@@ -1,0 +1,20 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+node_modules/*
+.idea/*
+.github/*
+package.json
+/.circleci/config.yml
+cucumber_report.json
+package-lock.json
+reports/*
+# Mac Meta file
+.DS_Store
+sendoso/*
+/src/data/failedScreenshot.png

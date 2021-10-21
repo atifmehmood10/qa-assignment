@@ -1,0 +1,222 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "RESTApi Tests",
+    "line": 2,
+    "id": "restapi-tests",
+    "tags": [
+      {
+        "name": "@RestAPI",
+        "line": 1
+      }
+    ],
+    "uri": "src/features/apiTests.feature",
+    "elements": [
+      {
+        "id": "restapi-tests;verify-api-response-and-schema-for-getting-resource",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Verify API Response and Schema for getting resource",
+        "tags": [
+          {
+            "name": "@RestAPI",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User hits the api",
+            "match": {
+              "location": "node_modules/stacktrace-js/stacktrace.js:90"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 394000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "User verifies schema and response code for getting resource",
+            "match": {
+              "location": "node_modules/stacktrace-js/stacktrace.js:90"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 341000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "restapi-tests;verify-api-response-and-schema-for-creating-resource",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Verify API Response and Schema for creating resource",
+        "tags": [
+          {
+            "name": "@RestAPI",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "User hits the api",
+            "match": {
+              "location": "node_modules/stacktrace-js/stacktrace.js:90"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 330000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "User verifies schema and response code for create resource",
+            "match": {
+              "location": "node_modules/stacktrace-js/stacktrace.js:90"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 820000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "restapi-tests;verify-api-response-and-schema-for-updating-resource",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Verify API Response and Schema for updating resource",
+        "tags": [
+          {
+            "name": "@RestAPI",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "User hits the api",
+            "match": {
+              "location": "node_modules/stacktrace-js/stacktrace.js:90"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 324000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "User verifies schema and response code for editing the resource",
+            "match": {
+              "location": "node_modules/stacktrace-js/stacktrace.js:90"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 844000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "restapi-tests;verify-api-response-and-schema-for-patching-resource",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Verify API Response and Schema for patching resource",
+        "tags": [
+          {
+            "name": "@RestAPI",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 19,
+            "name": "User hits the api",
+            "match": {
+              "location": "node_modules/stacktrace-js/stacktrace.js:90"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 351000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "User verifies schema and response code for patching the resource",
+            "match": {
+              "location": "node_modules/stacktrace-js/stacktrace.js:90"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 826000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "restapi-tests;verify-api-response-for-deleting-resource",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "Verify API Response for deleting resource",
+        "tags": [
+          {
+            "name": "@RestAPI",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 23,
+            "name": "User hits the api",
+            "match": {
+              "location": "node_modules/stacktrace-js/stacktrace.js:90"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 320000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "User verifies response code for deleting the resource",
+            "match": {
+              "location": "node_modules/stacktrace-js/stacktrace.js:90"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1175000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

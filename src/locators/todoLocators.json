@@ -1,0 +1,9 @@
+{
+  "TodoMVC":{
+    "addTodoItem":".new-todo",
+    "allTodoItems": "//a[contains(text(),\"All\")]",
+    "activeTodoItems": "//a[contains(text(),\"Active\")]",
+    "completedTodoItems": "//a[contains(text(),\"Completed\")]",
+    "clearCompleted": ".clear-completed"
+  }
+}
