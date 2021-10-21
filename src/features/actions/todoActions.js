@@ -77,8 +77,6 @@ class TodoActions {
         await inputUtility.clearXPathInputField(page, todoItemXpath)
         await page.keyboard.type(editedItem)
         await page.keyboard.press('Enter')
-        // await inputUtility.enterTextXpath(page, itemToEdit, editedItem)
-    }x
-
+    }
 }
 export default new TodoActions()
