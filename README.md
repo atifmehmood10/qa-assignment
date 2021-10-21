@@ -10,3 +10,6 @@ Run UI Automation:
   - todoMVCReport: Creates the report for TODO Automation exeution under reports folder by the name of AutomationReport.html
   - apiAutomation: Runs all scenarios for api automation.
   - apiReport: Creates the report for TODO Automation exeution under reports folder by the name of AutomationReport_API.html
+
+To run individual Scenario:
+Add a tag on the scenario and update the relevant execution command(todoMVCAutomation OR apiAutomation) tag at --tags=@ADDEDTAG
